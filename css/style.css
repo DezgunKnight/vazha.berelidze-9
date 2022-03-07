@@ -1,0 +1,32 @@
+/* header */
+
+
+.background-img {
+    background-image: url(../images/img.jpg);
+    height: 324px;
+    max-width: 2000px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.container {
+    max-width: 1800px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    position: absolute;
+    margin-top: 30px;
+}
+.nav-ul {
+    display: flex;
+}
+
+.li-1 {
+    margin-left: 50px;
+}
+a {
+    color: white;
+}
+
