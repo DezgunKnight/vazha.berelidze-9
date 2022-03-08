@@ -8,25 +8,47 @@
     width: 100%;
     background-repeat: no-repeat;
     background-size: cover;
-    position: relative;
+    padding-top: 30px;
+    
 }
-
-.container {
-    max-width: 1800px;
-    width: 100%;
+.nav-div {
     display: flex;
     justify-content: space-around;
-    position: absolute;
-    margin-top: 30px;
 }
+
 .nav-ul {
     display: flex;
 }
 
 .li-1 {
-    margin-left: 50px;
+   margin-left: 30px;
 }
 a {
     color: white;
 }
+.about-us {
+    display: flex;
+    flex-direction: column;
+    margin-top: 150px;
+    margin-left: 300px;
+}
+.about-us, h2 {
+    font-size: 50px;
+    color: white;
+}
+.about-us-2 {
+    display: flex;
+}
+.about-us-2, p {
+    color: white;
+    font-size: 20px;
+}
+.line {
+    height: 19px;
+    width: 1px;
+    background-color: purple;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
 
